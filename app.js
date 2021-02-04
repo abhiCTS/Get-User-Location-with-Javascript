@@ -29,7 +29,7 @@
                 setAddressToInputField(address.results[0].formatted_address)
             }
         };
-        xhttp.open("GET", "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + lat + "," + long + "&key=**************", true);
+        xhttp.open("GET", "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + lat + "," + long + "&key=AIzaSyCwZBXLNybkqWzhfsfNqqVXKwev2VPez2U", true);
         xhttp.send();
     }
 
@@ -40,7 +40,7 @@
     }
 
     var defaultBounds = new google.maps.LatLngBounds(
-        new google.maps.LatLng(45.4215296, -75.6971931),
+        new google.maps.LatLng(23.3484783, 85.3239504),
     );
 
     var options = {
